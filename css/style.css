@@ -1,0 +1,797 @@
+/* Start Global Css */
+* {
+ box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ /* background-color: #e0dfe1; */
+}
+body{
+    background-color: #d8d7d9;
+}
+a{
+    text-decoration: none;
+}
+section{
+    background-color: #d8d7d93e;
+    padding-bottom: 60px;
+}
+.container{
+    height: 100%;
+    width: 90%;
+    padding: 40px 60px;
+    margin: 40px 60px;
+    background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+/* End Global Css */
+/* Start Nav CSS */
+nav{
+    height: 90px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 18px 40px;
+}
+/* End Nav Css */
+/* Start Section1 CSS */
+.section1{
+    height: 690px;
+    width: 100%;
+    border: 1px solid #e0dfe1 2px 10px;
+    
+}
+.section1 .container{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    
+}
+.section1 .container .side{
+    height: 100%;
+    width: 32%;
+    margin-right: 75px;
+    
+}
+.section1 .container .side .img{
+    height: 70%;
+    background-color: #e0dfe1;
+    border: 1px solid #e0dfe1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-bottom: 20px;
+
+}
+.section1 .container .side.img img{
+    height: 100%;
+    width: 100%;
+}
+.section1 .container .side button{
+    width: 393px;
+    color: #808080;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 25px 20px;
+    margin-bottom: 30px;
+    font-size: 18pt;
+}
+.section1 .container .side button i{
+    font-size: 30px;
+}
+.section1 .container .side p{
+    color: #808080;
+    display: inline-block;
+    padding-left: 80px;
+    font-size: 15pt;
+    font-weight: bolder;
+}
+.section1 .container .side p i{
+    color: #1a70b9;
+    font-size: 19px;
+}
+.section1 .container .details{
+    width: 68%;
+}
+.section1 .container .details h1{
+    padding-bottom: 0px;
+    font-weight: bolder;
+}
+.section1 .container .details h1 span.blue{
+    color: #1a70b9;
+}
+.section1 .container .details h4{
+    padding-top: 0px;
+    color: #808080;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+.section1 .container .details p{
+    font-size: 14pt;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+.section1 .container .details table{
+    margin-bottom: 18px;
+}
+.section1 .container .details table td{
+    padding: 7px 45px ;
+    padding-left: 0px;
+    font-size: larger;
+}
+.section1 .container .details table td{
+    font-weight: bold;
+}
+.section1 .container .details table .td1{
+    color: #808080;
+    font-size: 13pt;
+    font-weight: bold;
+}
+.section1 .container .details a div{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin-right: 23px;
+    border: 1px solid #808080;
+    text-align: center;
+    padding-top: 15px;
+    transition: all 0.3s linear;
+}
+.section1 .container .details a div:hover{
+    transform: scale(1.03);
+}
+.section1 .container .details a div i{
+    color: #808080;
+    font-size: 25px;
+    transition: all 0.3s linear;
+}
+/* .section1 .container .details a div i:hover{
+    transform: scale(1.03);
+} */
+
+/* End Section CSS */
+
+
+/* Start Section2 CSS */
+
+.section2{
+    margin-top: 40px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1{
+    color: #1a70b9;
+    text-align: center;
+    padding-top: 60px;
+}
+.section2 .container{
+    background-color: #d8d7d93e;
+    display: flex;
+    justify-content: space-between;
+}
+.section2 .side1{
+    height: 100%;
+    width: 50%;
+    padding: 40px;
+    margin-right: 20px;
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+.section2 .side1 .head{
+    height: 60px;
+    width: 300px;
+    padding: 20px 70px;
+    position: absolute;
+    bottom: 480px;
+    right: 100px;
+    z-index: 20px;
+    color: #ffffff;
+    background-color: #1a70b9;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+.section2 .side1 .skills1{
+    width: 100%;
+    background-color: gray;
+}
+.section2 .side1 .skills1 .skillset{
+    text-align: right;
+    color: #ffffff;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.section2 .side1 .skills1 .skill{
+    width: 70%;
+    background-color: #1a70b9;
+    margin-bottom: 20px;
+}
+.section2 .side1 .skills1 .skille{
+    width: 50%;
+    background-color: #1a70b9;
+    margin-bottom: 20px;
+}
+
+
+
+
+.section2 .side1 .skills1 p{
+    margin-bottom: 2px;
+    font-size: 22px;
+}
+.section2 .side2{
+    height: 510px;
+    width: 60%;
+    padding-top: 40px;
+    position: relative;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.section2 .side2 .head{
+    height: 60px;
+    width: 300px;
+    padding: 20px 70px;
+    position: absolute;
+    bottom: 480px;
+    right: 160px;
+    z-index: 20px;
+    color: #ffffff;
+    background-color: #1a70b9;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+/**********************---*/
+.row{
+    margin-top: 60px;
+    justify-content: space-evenly;
+}
+.row p{
+    text-align: right;
+    padding-left: 90px;
+    margin-top: 40px;
+    margin-right: 0px;
+}
+.progress{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 50px;
+    margin-left: 40px;
+    box-shadow: none;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 15px solid #e36666;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 15px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: absolute;
+}
+.progress.blue .progress-bar{
+    border-color: #1a70b9;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress.yellow .progress-bar{
+    border-color: #1a70b9;
+}
+.progress.yellow .progress-left .progress-bar{
+    animation: loading-3 1s linear forwards 1.8s;
+}
+.progress.pink .progress-bar{
+    border-color: #1a70b9;
+}
+.progress.pink .progress-left .progress-bar{
+    animation: loading-4 0.4s linear forwards 1.8s;
+}
+.progress.green .progress-bar{
+    border-color: #1abc9c;
+}
+.progress.green .progress-left .progress-bar{
+    animation: loading-5 1.2s linear forwards 1.8s;
+}
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+} 
+
+/**********************---*/
+.section2 .side2 .div2, .div21{
+    margin-top: 30px;
+    display: inline-block;
+    padding: 30px;
+}
+.section2 .side2 .div2{
+    margin-right: 170px;
+    padding-right:0px;
+
+}
+
+/* End Section CSS */
+
+/* Start Section3 CSS */
+
+.section3 {
+    background-color: #d8d7d93e;
+    margin: 0 120px;
+    
+}
+.section3 h1{
+    color: #1a70b9;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.section3 .box{
+    height: 380px;
+    width: 380px;
+    padding: 70px 30px;
+    margin-right:29px;
+    margin-bottom: 35px;
+    margin-left: 0px;
+    float: left;
+    position: relative;
+    display: inline-block;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}    
+.section3 .lastch{
+    margin-right: 0pxs;
+}
+.section3 .box .head{
+    height: 50px;
+    width: 200px;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: 300px;
+    right: 200px;
+    z-index: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #1a70b9;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.section3 .box .footer{
+    height: 50px;
+    width: 200px;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: 212px;
+    right: 219px;
+    z-index: -20;
+    text-align: center;
+    color: #ffffff;
+    background-color: #1a70b9; 
+    transform: rotate(52deg);
+}
+.section3  .box h5{
+    color: #808080;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.section3  .box h5 .h52{
+    margin-top: 2px;
+}
+.section3 .box h5 i{
+    font-size: 16pt;
+    padding-right: 15px;
+}
+.section3  .box p{
+    margin-top: 25px;
+    font-size: medium;
+    font-weight: bold;
+}
+/* End Section CSS */
+
+/* Start Section4 CSS */
+
+.section4{
+    margin: 0 120px;
+}
+.section4 .menu{
+    text-align: center;
+}
+.section4 .menu button{
+    padding: 15px;
+    margin: 70px 2px 40px 2px;
+    font-size: larger;
+    font-weight: bold;
+ 
+
+    border: none;
+    
+}
+.section4 .menu button:hover{
+    background-color: #272cd5;
+}
+.section4 .menu button:active{
+    
+    color: #ffffff;
+}
+.section4 img{
+    height: 330px;
+    width: 380px;
+    margin: 10px 10px;
+    float: left;
+    transition: all 0.3s linear;
+    transition: opacity 0.3s ease;
+}
+
+.section4 img:hover{
+    transform: scale(1.03);
+    opacity: 15%;
+  
+}
+/* End Section CSS */
+
+/* Start Section5 CSS */
+
+.section5{
+    margin: 0 120px;
+}
+.section5 h1{
+    text-align: center;
+    color: #1a70b9;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.section5 .box{
+    height: 450px;
+    width: 390px;
+    padding: 0px;
+    margin: 0px;
+    color: #808080;
+    display: inline-block;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transition: all 0.4s linear;
+}
+
+.section5 .box .div1{
+    height: 25%;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+}
+.section5 .box .div2,.div4{
+    height: 15%;
+    text-align: center;
+    padding-top: 15px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #808080;
+    color: #ffffff;
+}
+.section5 .box .div22,.div42{
+    background-color:#1a70b9;
+    color: #ffffff;
+    margin-top: 0px;
+}
+.section5 .box .div2 span{
+    font-size: small;
+}
+.section5 .box .div3{
+    height: 50%;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+}
+/* End Section CSS */
+
+/* Start Section6 CSS */
+
+/* End Section CSS */
+
+.section6{
+    margin: 0 60px;
+}
+.section6 h1{
+    text-align: center;
+    color: #1a70b9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section6 .container{
+    background-color: #d8d7d93e;
+    padding: 0px;
+    /* padding-left: 20px; */
+    margin: 40px 40px;
+}
+.section6 .container .box{
+    height: 400px;
+    width: 390px;
+    margin-right: 5px;
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    transition: all 0.3s linear;
+}
+
+.section6 .container .box .img img{
+    height: 120px;
+    width: 120px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.section6 .container .box h5{
+    color: #1a70b9;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+.section6 .container .box h6{
+    color: #808080;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+.section6 .container .box .text{
+    height: 50%;
+    width: 100%;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    background-color: #1a70b9;
+}
+.section6 .container .box .text p{
+    color: #ffffff;
+}
+/* Start Section7 CSS */
+.section7 h1{
+    text-align: center;
+    color: #1a70b9;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.section7 .container{
+    background-color: #d8d7d93e;
+}
+.section7 .container p{
+    padding-bottom: 30px;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    line-height: 37px;
+}
+.section7 .container .icon{
+    text-align: center;
+}
+.section7 .container .icon div{
+    display: inline-block;
+    height:80px;
+    width: 80px;
+    margin-right: 23px;
+    border: none;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #1a70b9;
+    color: #ffffff;
+}
+.section7 .container .icon div i{
+    color: #ffffff;
+    font-size: 25px;
+}
+/* End Section CSS */
+
+/* Start Section8 CSS */
+
+.section8 h1{
+    text-align: center;
+    color: #1a70b9;
+    margin-bottom: 40px;
+}
+.section8 .container{
+    background-color: #d8d7d93e;
+    /* padding: 0px; */
+    height: 100%;
+    width: 90%;
+    padding: 40px 60px;
+    margin: 0px 110px;
+    
+}
+.section8 .container .box{
+    height: 600px;
+    width: 45%;
+    display: inline-block;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+.section8 .container .box1{
+    margin-right: 50px;
+}
+.section8 .container .box img{
+    height: 50%;
+    width: 100%;
+}
+.section8 .container .box h5{
+    padding: 5px 20px;
+    color: #808080;
+}
+.section8 .container .box h3{
+    padding: 5px 20px;
+}
+.section8 .container .box h6{
+    color: #1a70b9;
+    display: inline-block;
+}
+.section8 .container .box h6 i{
+    padding: 5px 20px;
+    padding-right: 10px;
+}
+.section8 .container .box p{
+    padding: 0px 20px;
+}
+.section8 .container .box button{
+    background-color: #1a70b9;
+    color: #ffffff;
+    padding: 20px 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.section8 .container #but{
+    background-color: #808080;
+    color: #ffffff;
+    padding: 20px 40px;
+    margin-top: 100PX;
+    margin-left: 40%;
+    border: none;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+/* End Section CSS */
+
+.section9 .container{
+    background-color: #d8d7d93e;
+}
+.section9 .container h1{
+    margin-bottom: 30px;
+    
+}
+.section9 .container input[type=text], [type=email]{
+    height: 50px;
+    width: 100%;
+    border: none;
+    margin-bottom: 30px;
+    text-indent: 20px;
+
+}
+.section9 .container input[type=textarea]{
+    height: 100px;
+    width: 100%;
+    border: none;
+    margin-bottom: 30px;
+    text-indent: 20px;
+
+}
+.section9 .container input[type=submit]{
+    /* height: 60px;
+    width: 10%; */
+    padding: 12px 20px;
+    text-align: center;
+    border: none;
+    margin-bottom: 30px;
+    background-color: #1a70b9;
+    color: #ffffff;
+   border-radius: 4px;
+}
+.section9 .container input:focus{
+    border: none;
+    outline: none;
+}
